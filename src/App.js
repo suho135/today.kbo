@@ -19,8 +19,29 @@ function App() {
         score: "7:6",
         summary: "채은성 끝내기 홈런으로 LG 승리!",
       },
+      {
+        date: "2025-05-10",
+        home: "KIA",
+        away: "SSG",
+        score: "2:1",
+        summary: "이의리 7이닝 1실점, 박찬호 결승타!",
+      },
+      {
+        date: "2025-05-10",
+        home: "NC",
+        away: "키움",
+        score: "6:4",
+        summary: "손아섭 멀티히트, 김주원 쐐기타!",
+      },
+      {
+        date: "2025-05-10",
+        home: "롯데",
+        away: "KT",
+        score: "3:0",
+        summary: "나균안 완봉승! 안치홍 멀티타점!",
+      },
     ]);
-  }, []);
+  }, []); // 변경 유도용 주석 추가
 
   return (
     <div style={{ padding: 20 }}>

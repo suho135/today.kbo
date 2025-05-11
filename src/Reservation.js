@@ -15,20 +15,9 @@ function Reservation() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    // 예약 메시지 생성
-    const message = `[예약 신청]\n
-이름: ${formData.name}\n
-전화번호: ${formData.phone}\n
-날짜: ${formData.date}\n
-시간: ${formData.time}\n
-인원: ${formData.people}명`;
-
-    alert("예약 신청 완료!\n\n" + message);
-
-    // 추후 카카오톡 API 전송 가능
-  };
-
+     const chatLink = `https://open.kakao.com/o/sCWZySvh`;
+  window.location.href = chatLink;
+};
   return (
     <div style={{ fontFamily: "sans-serif", padding: "20px", maxWidth: "500px", margin: "auto" }}>
       <h2 style={{ textAlign: "center", marginBottom: "20px" }}>📅 예약하기</h2>

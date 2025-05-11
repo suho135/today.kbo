@@ -1,3 +1,4 @@
+import React from "react";
 import Reservation from "./Reservation";
 
 
@@ -91,10 +92,11 @@ function App() {
       <footer style={{ textAlign: "center", padding: "20px", backgroundColor: "#ffe0b2", fontSize: "0.9rem" }}>
         ⓒ 2025 수호 카페. All Rights Reserved.
       </footer>
-    </div>
+   <Reservation /> 
+          </div>
   );
 }
 
 export default App;
-<Reservation />
+
 

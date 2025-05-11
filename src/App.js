@@ -1,4 +1,5 @@
-import React from "react";
+import Reservation from "./Reservation";
+
 
 function App() {
   return (
@@ -95,3 +96,5 @@ function App() {
 }
 
 export default App;
+<Reservation />
+
